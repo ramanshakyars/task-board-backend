@@ -140,4 +140,8 @@ SIMPLE_JWT = {
 }
 
 # CORS
-CORS_ALLOW_ALL_ORIGINS = True  # Allow all origins (dev mode)
+
+
+CORS_ALLOWED_ORIGINS = [
+    "http://task-board-panel.s3-website.eu-north-1.amazonaws.com",
+]
